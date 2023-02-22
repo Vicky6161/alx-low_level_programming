@@ -1,12 +1,12 @@
 #include "main.h"
-
 /**
- * main - prints _putcher and a new line
- * Return: Always 0
+ * main - main function
+ *  _putchar: print the alphabets putchar
+ *  Return: always 0
  */
+
 int main(void)
 {
-
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -16,7 +16,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
 	return (0);
-
-
+}
