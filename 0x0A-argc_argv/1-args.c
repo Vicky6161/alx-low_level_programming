@@ -2,15 +2,20 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c:Ther character to print
+ * main - prints all arguments it receives
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
- * Return: On success 1.
- * On error, -1 is returned and errno is set appropriately.
+ * Return: Always 0 (Success)
  */
 
-int _putchar(char c)
+int main(int argc, char *argv[])
 {
-	return (write(1, &c, 1));
-}
+	int i;
 
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+		return (0);
+}
